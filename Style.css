@@ -1,0 +1,37 @@
+.jc-productTab {
+  background-color: #c94747;
+}
+
+.jc-productTabSelected {
+  border: 1px solid #fa5fb1;
+  box-shadow: 0 0 0 0.2rem #fa5fb1;
+}
+
+label#_ideal_label {
+  color: #818181;
+}
+
+input#_card_number,
+input#_expiry,
+input#_cvv,
+input#_account_number,
+input#_routing_number,
+select#_account_type_select,
+select#ideal_select {
+  color: #e61d1d;
+  background-color: #c94747;
+}
+
+input#_card_number::placeholder,
+input#_expiry::placeholder,
+input#_cvv::placeholder,
+input#_account_number::placeholder,
+input#_routing_number::placeholder {
+  color: #d8d8d8;
+}
+
+#_submit_button {
+  background-color: #fa5fb1;
+  border: 1px solid #fa5fb1;
+  color: #250404;
+}
